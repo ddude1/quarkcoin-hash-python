@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-void quark_hash(const char* input, char* output);
+void quark_hash(const char* input,  int size, char* output);
 
 #ifdef __cplusplus
 }
